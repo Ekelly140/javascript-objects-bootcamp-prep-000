@@ -6,6 +6,8 @@ playlist[artistName] = [songTitle]
 return playlist
   }
   
+var playlist = {artist: "song", kaney:"power", eric:"Hello"}
 function removeFromPlaylist(playlist, artistName){
-  delete meal
+  delete playlist[artistName];
+  return playlist
 }
